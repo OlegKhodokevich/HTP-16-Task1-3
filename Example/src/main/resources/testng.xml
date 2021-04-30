@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" verbose="1">
+    <test name="Test Group_Main">
+        <groups>
+            <run>
+                <include name="base_flow"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="by.khodokevich.task.creator.CustomerArrayCreatorTest"/>
+            <class name="by.khodokevich.task.parser.ParserStringToArrayDoubleStreamTest"/>
+            <class name="by.khodokevich.task.parser.ParserStringToArrayOfDoubleTest"/>
+            <class name="by.khodokevich.task.reader.impl.DataStringReaderImplTest"/>
+            <class name="by.khodokevich.task.reader.impl.DataStringReaderStreamImplTest"/>
+            <class name="by.khodokevich.task.service.ArrayServiceWithStreamTest"/>
+            <class name="by.khodokevich.task.service.ArrayServiceTest"/>
+            <class name="by.khodokevich.task.service.ArraySortStreamTest"/>
+            <class name="by.khodokevich.task.service.ArrayServiceSortTest"/>
+            <class name="by.khodokevich.task.validator.ValidatorParseStringOfDoubleTest"/>
+            <class name="by.khodokevich.task.validator.ValidatorCustomerArrayTest"/>
+        </classes>
+    </test>
+    <test name="Test Group_Negative">
+        <groups>
+            <run>
+                <include name="negative_group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="by.khodokevich.task.creator.CustomerArrayCreatorTest"/>
+            <class name="by.khodokevich.task.parser.ParserStringToArrayDoubleStreamTest"/>
+            <class name="by.khodokevich.task.parser.ParserStringToArrayOfDoubleTest"/>
+            <class name="by.khodokevich.task.reader.impl.DataStringReaderImplTest"/>
+            <class name="by.khodokevich.task.reader.impl.DataStringReaderStreamImplTest"/>
+            <class name="by.khodokevich.task.service.ArrayServiceWithStreamTest"/>
+            <class name="by.khodokevich.task.service.ArrayServiceTest"/>
+            <class name="by.khodokevich.task.service.ArraySortStreamTest"/>
+            <class name="by.khodokevich.task.service.ArrayServiceSortTest"/>
+            <class name="by.khodokevich.task.validator.ValidatorParseStringOfDoubleTest"/>
+            <class name="by.khodokevich.task.validator.ValidatorCustomerArrayTest"/>
+        </classes>
+    </test>
+    <test name="ChekGroup_2">
+        <groups>
+            <run>
+                <include name="function_min_max_condition"/>
+                <include name="function_count_elements"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="by.khodokevich.task.service.ArrayServiceTest"></class>
+        </classes>
+    </test>
+</suite>

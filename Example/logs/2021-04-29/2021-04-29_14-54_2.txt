@@ -1,0 +1,147 @@
+14:54:54.054 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.070 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.070 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Array = CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.070 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Number negative elements of array = 1
+
+14:54:54.070 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Start countPositiveValueOfArray()
+14:54:54.070 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.070 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.084 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Array = CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.084 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Number positive elements of array = 3
+
+14:54:54.084 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Start countPositiveValueOfArray()
+14:54:54.084 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Start ArrayLogic.exchangeNumberOfArrayToOtherNumber()
+14:54:54.084 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.084 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.084 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Array = CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.084 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - New array = [2.0, 2.5, -3.1, 6.0]
+14:54:54.084 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Start findAverageValueOfArray()
+14:54:54.084 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.084 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.084 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Array = CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Average value of array = 1.6
+
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Start ArrayLogic.findMaxValueOfArray()
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-3.6, 0.7, 2.7, 2.6, 2.4, 1.3, -1.0, -2.2, -1.5, 2.6]
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Array = CustomerArray[-3.6, 0.7, 2.7, 2.6, 2.4, 1.3, -1.0, -2.2, -1.5, 2.6]
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Max value of array = 2.7
+
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Start ArrayLogic.findMaxValueOfArray()
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.8, -4.3, -3.5, 1.8, -0.9, -4.5, 0.4, 1.1, 1.3, 2.4]
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Array = CustomerArray[1.8, -4.3, -3.5, 1.8, -0.9, -4.5, 0.4, 1.1, 1.3, 2.4]
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Max value of array = 2.4
+
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-3.6, 0.7, 2.7, 2.6, 2.4, 1.3, -1.0, -2.2, -3.6, 2.6]
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Start ArrayLogic.findMinValueOfArray()
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Array = CustomerArray[-3.6, 0.7, 2.7, 2.6, 2.4, 1.3, -1.0, -2.2, -3.6, 2.6]
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Min value of array = -3.6
+
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.8, -4.3, -3.5, 1.8, -0.9, -4.5, 0.4, 1.1, 1.3, 2.4]
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Start ArrayLogic.findMinValueOfArray()
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Array = CustomerArray[1.8, -4.3, -3.5, 1.8, -0.9, -4.5, 0.4, 1.1, 1.3, 2.4]
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Min value of array = -4.5
+
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Start ArrayLogic.sumElementsOfArray()
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Array = CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicWithStreamImpl - Sum of array = 6.4
+
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Start countNegativeValueOfArray()
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Array = CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Number negative elements of array = 1
+
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Start countPositiveValueOfArray()
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Array = CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Number positive elements of array = 3
+
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Start ArrayLogic.exchangeNumberOfArrayToOtherNumber()
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.100 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Array = CustomerArray[1.0, 2.5, -3.1, 6.0]
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicImpl - New array = [2.0, 2.5, -3.1, 6.0]
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicImpl - New array = CustomerArray[2.0, 2.5, -3.1, 6.0]
+
+14:54:54.100 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Start ArrayLogic.findMaxValueOfArray()
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-3.6, 0.7, 2.7, 2.6, 2.4, 1.3, -1.0, -2.2, -1.5, 2.6]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Array = CustomerArray[-3.6, 0.7, 2.7, 2.6, 2.4, 1.3, -1.0, -2.2, -1.5, 2.6]
+14:54:54.115 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Max value of array = 2.7
+
+14:54:54.115 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Start ArrayLogic.findMaxValueOfArray()
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.8, -4.3, -3.5, 1.8, -0.9, -4.5, 0.4, 1.1, 1.3, 2.4]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Array = CustomerArray[1.8, -4.3, -3.5, 1.8, -0.9, -4.5, 0.4, 1.1, 1.3, 2.4]
+14:54:54.115 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Max value of array = 2.4
+
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-3.6, 0.7, 2.7, 2.6, 2.4, 1.3, -1.0, -2.2, -1.5, 2.6]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Start ArrayLogic.findMinValueOfArray()
+14:54:54.115 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Array = CustomerArray[-3.6, 0.7, 2.7, 2.6, 2.4, 1.3, -1.0, -2.2, -1.5, 2.6]
+14:54:54.115 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Min value of array = -3.6
+
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.8, -4.3, -3.5, 1.8, -0.9, -4.5, 0.4, 1.1, 1.3, 2.4]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Start ArrayLogic.findMinValueOfArray()
+14:54:54.115 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Array = CustomerArray[1.8, -4.3, -3.5, 1.8, -0.9, -4.5, 0.4, 1.1, 1.3, 2.4]
+14:54:54.115 [main] INFO  service.impl.ArrayArithmeticLogicImpl - Min value of array = -4.5
+
+14:54:54.115 [main] INFO  service.impl.ArraySortStreamImpl - Sort with stream "sortCustomerArray(CustomerArray customerArray)" start
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.0, 5.8, 9.6, 6.3, 8.7, -6.0]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArraySortStreamImpl - Transmitted array : CustomerArray[1.0, 2.5, -3.0, 5.8, 9.6, 6.3, 8.7, -6.0]
+14:54:54.115 [main] INFO  service.impl.ArraySortStreamImpl - Sort with stream sortCustomerArray(CustomerArray customerArray) has finished. Sorted array :CustomerArray[1.0, 2.5, -3.0, 5.8, 9.6, 6.3, 8.7, -6.0]
+14:54:54.115 [main] INFO  service.impl.ArraySortStreamImpl - Sort with stream "sortCustomerArray(CustomerArray customerArray)" start
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[9.0, 3.3, 5.6, 8.9, 5.6, -8.0, -4.5, 1.2]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArraySortStreamImpl - Transmitted array : CustomerArray[9.0, 3.3, 5.6, 8.9, 5.6, -8.0, -4.5, 1.2]
+14:54:54.115 [main] INFO  service.impl.ArraySortStreamImpl - Sort with stream sortCustomerArray(CustomerArray customerArray) has finished. Sorted array :CustomerArray[9.0, 3.3, 5.6, 8.9, 5.6, -8.0, -4.5, 1.2]
+14:54:54.115 [main] INFO  service.impl.ArraySortStreamImpl - Sort with stream "sortCustomerArray(CustomerArray customerArray)" start
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[5.6, 4.8, -1.2, -6.3, -8.0, -5.0, 6.3, 5.7]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArraySortStreamImpl - Transmitted array : CustomerArray[5.6, 4.8, -1.2, -6.3, -8.0, -5.0, 6.3, 5.7]
+14:54:54.115 [main] INFO  service.impl.ArraySortStreamImpl - Sort with stream sortCustomerArray(CustomerArray customerArray) has finished. Sorted array :CustomerArray[5.6, 4.8, -1.2, -6.3, -8.0, -5.0, 6.3, 5.7]
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Start quick sort.
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.0, 5.8, 9.6, 6.3, 8.7, -6.0]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Array :[1.0, 2.5, -3.0, 5.8, 9.6, 6.3, 8.7, -6.0]
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Start quick sort.
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.0, -6.0, 9.6, 6.3, 8.7, 5.8]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Array :[1.0, 2.5, -3.0, -6.0, 9.6, 6.3, 8.7, 5.8]
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Start quick sort.
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.0, -6.0, 5.8, 6.3, 8.7, 9.6]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Array :[1.0, 2.5, -3.0, -6.0, 5.8, 6.3, 8.7, 9.6]
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Start quick sort.
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.0, -6.0, 5.8, 6.3, 8.7, 9.6]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Array :[1.0, 2.5, -3.0, -6.0, 5.8, 6.3, 8.7, 9.6]
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Start quick sort.
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, -6.0, -3.0, 2.5, 5.8, 6.3, 8.7, 9.6]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Array :[1.0, -6.0, -3.0, 2.5, 5.8, 6.3, 8.7, 9.6]
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Start quick sort.
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-6.0, 1.0, -3.0, 2.5, 5.8, 6.3, 8.7, 9.6]
+14:54:54.115 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Array :[-6.0, 1.0, -3.0, 2.5, 5.8, 6.3, 8.7, 9.6]
+14:54:54.115 [main] INFO  service.impl.ArrayServiceSortImpl2 - Start quick sort.
+14:54:54.131 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[9.0, 3.3, 5.6, 8.9, 5.6, -8.0, -4.5, 1.2]
+14:54:54.131 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.131 [main] INFO  service.impl.ArrayServiceSortImpl2 - Array :[9.0, 3.3, 5.6, 8.9, 5.6, -8.0, -4.5, 1.2]
+14:54:54.131 [main] INFO  service.impl.ArrayServiceSortImpl2 - Start quick sort.
+14:54:54.131 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.2, 3.3, 5.6, -4.5, 5.6, -8.0, 8.9, 9.0]
+14:54:54.131 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.131 [main] INFO  service.impl.ArrayServiceSortImpl2 - Array :[1.2, 3.3, 5.6, -4.5, 5.6, -8.0, 8.9, 9.0]
+14:54:54.131 [main] INFO  service.impl.ArrayServiceSortImpl2 - Start quick sort.
+14:54:54.131 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.2, 3.3, 5.6, -4.5, 5.6, -8.0, 8.9, 9.0]
+14:54:54.131 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+14:54:54.131 [main] INFO  service.impl.ArrayServiceSortImpl2 - Array :[1.2, 3.3, 5.6, -4.5, 5.6, -8.0, 8.9, 9.0]

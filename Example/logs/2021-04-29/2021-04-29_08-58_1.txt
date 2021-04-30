@@ -1,0 +1,135 @@
+08:58:41.741 [main] INFO   main - Start Main test...
+08:58:41.742 [main] INFO  reader.impl.DataStringReaderImpl readLineOfDoubleFromTXT - Start read from txt.
+08:58:41.743 [main] INFO  reader.impl.DataStringReaderImpl readLineOfDoubleFromTXT - Line is : 3.6 5.9 5в6 -9.7
+08:58:41.743 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Start to validate string: 3.6 5.9 5в6 -9.7
+08:58:41.744 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Validating is: false
+08:58:41.744 [main] INFO  reader.impl.DataStringReaderImpl readLineOfDoubleFromTXT - Line is : -1.8, 9.6,8.7, 1.3 6.1 8 0
+08:58:41.745 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Start to validate string: -1.8, 9.6,8.7, 1.3 6.1 8 0
+08:58:41.745 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Validating is: true
+08:58:41.745 [main] INFO  reader.impl.DataStringReaderImpl readLineOfDoubleFromTXT - Finish read from txt. True line is : -1.8, 9.6,8.7, 1.3 6.1 8 0
+08:58:41.746 [main] INFO  reader.impl.DataStringReaderStreamImpl readLineOfDoubleFromTXT - Start read from txt.
+08:58:41.748 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Start to validate string: 3.6 5.9 5в6 -9.7
+08:58:41.749 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Validating is: false
+08:58:41.749 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Start to validate string: -1.8, 9.6,8.7, 1.3 6.1 8 0
+08:58:41.749 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Validating is: true
+08:58:41.750 [main] INFO  reader.impl.DataStringReaderStreamImpl readLineOfDoubleFromTXT - Reading from txt has finished. Line  = Optional[-1.8, 9.6,8.7, 1.3 6.1 8 0]
+08:58:41.751 [main] INFO  reader.impl.DataStringReaderStreamImpl readLineOfDoubleFromTXT - Start read from txt.
+08:58:41.751 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Start to validate string: 3.6 5.9 5в6 -9.7
+08:58:41.751 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Validating is: false
+08:58:41.751 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Start to validate string: -1.8, 9.6,8.7, 1.3 6.1 8 0
+08:58:41.751 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Validating is: true
+08:58:41.752 [main] INFO  reader.impl.DataStringReaderStreamImpl readLineOfDoubleFromTXT - Reading from txt has finished. Line  = Optional[-1.8, 9.6,8.7, 1.3 6.1 8 0]
+08:58:41.752 [main] INFO   main - numberLineForParsing = -1.8, 9.6,8.7, 1.3 6.1 8 0
+08:58:41.752 [main] INFO  task.parser.ParserStringToArrayDouble parseStringToDouble - Start parse in parseStringToDouble(String line). Line = -1.8, 9.6,8.7, 1.3 6.1 8 0
+08:58:41.752 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Start to validate string: -1.8, 9.6,8.7, 1.3 6.1 8 0
+08:58:41.753 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Validating is: true
+08:58:41.753 [main] INFO  task.parser.ParserStringToArrayDouble parseStringToDouble - Finish parse in parseStringToDouble(String line). Array : [-1.8, 9.6, 8.7, 1.3, 6.1, 8.0, 0.0]
+08:58:41.753 [main] INFO   main - Parsed array = [-1.8, 9.6, 8.7, 1.3, 6.1, 8.0, 0.0]
+
+08:58:41.754 [main] INFO   main - numberLineForParsing = -1.8, 9.6,8.7, 1.3 6.1 8 0
+08:58:41.754 [main] INFO  task.parser.ParserStringToArrayDoubleStream parseStringToDouble - Start parse in parseStringToDouble(String line). Line = -1.8, 9.6,8.7, 1.3 6.1 8 0
+08:58:41.754 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Start to validate string: -1.8, 9.6,8.7, 1.3 6.1 8 0
+08:58:41.755 [main] INFO  task.validator.ValidatorParseStringOfDouble validateStringOfDouble - Validating is: true
+08:58:41.757 [main] INFO  task.parser.ParserStringToArrayDoubleStream parseStringToDouble - Finish parse in parseStringToDouble(String line). Array : [-1.8, 9.6, 8.7, 1.3, 6.1, 8.0, 0.0]
+08:58:41.758 [main] INFO   main - Parsed array = [-1.8, 9.6, 8.7, 1.3, 6.1, 8.0, 0.0]
+
+08:58:41.758 [main] INFO   main - Array for creating = [-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.758 [main] INFO  task.creator.CustomerArrayCreator createCustomerArray - Start creating CustomArray
+08:58:41.759 [main] INFO  task.creator.CustomerArrayCreator createCustomerArray - CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.759 [main] INFO   main - CustomerArray  = CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+
+08:58:41.760 [main] INFO  task.creator.CustomerArrayCreator createCustomerArray - Start creating CustomArray
+08:58:41.760 [main] INFO  task.creator.CustomerArrayCreator createCustomerArray - CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.760 [main] INFO   main - Array for arithmetic operation  = CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.761 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMaxValueOfArray - Start ArrayLogic.findMaxValueOfArray()
+08:58:41.761 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.761 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.762 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMaxValueOfArray - Array = CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.763 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMaxValueOfArray - Max value of array = 9.6
+
+08:58:41.763 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.763 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.763 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMinValueOfArray - Start ArrayLogic.findMinValueOfArray()
+08:58:41.763 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMinValueOfArray - Array = CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.764 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMinValueOfArray - Min value of array = -1.8
+
+08:58:41.764 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findAverageValueOfArray - Start findAverageValueOfArray()
+08:58:41.764 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.764 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.764 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findAverageValueOfArray - Array = CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.764 [main] INFO  service.Impl.ArrayArithmeticLogicImpl sumElementsOfArray - Start ArrayLogic.sumElementsOfArray()
+08:58:41.764 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.765 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.765 [main] INFO  service.Impl.ArrayArithmeticLogicImpl sumElementsOfArray - Array = CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.765 [main] INFO  service.Impl.ArrayArithmeticLogicImpl sumElementsOfArray - Sum of array = 8.0
+
+08:58:41.765 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findAverageValueOfArray - Average value of array = 1.3333333333333333
+
+08:58:41.765 [main] INFO  service.Impl.ArrayArithmeticLogicImpl exchangeNumberOfArrayToOtherNumber - Start ArrayLogic.exchangeNumberOfArrayToOtherNumber()
+08:58:41.766 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.766 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.766 [main] INFO  service.Impl.ArrayArithmeticLogicImpl exchangeNumberOfArrayToOtherNumber - Array = CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]
+08:58:41.766 [main] INFO  service.Impl.ArrayArithmeticLogicImpl exchangeNumberOfArrayToOtherNumber - New array = [-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.766 [main] INFO  service.Impl.ArrayArithmeticLogicImpl exchangeNumberOfArrayToOtherNumber - New array = CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+
+08:58:41.767 [main] INFO  service.Impl.ArrayArithmeticLogicImpl countNegativeValueOfArray - Start countNegativeValueOfArray()
+08:58:41.767 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.767 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.767 [main] INFO  service.Impl.ArrayArithmeticLogicImpl countNegativeValueOfArray - Array = CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.767 [main] INFO  service.Impl.ArrayArithmeticLogicImpl countNegativeValueOfArray - Number negative elements of array = 2
+
+08:58:41.768 [main] INFO  service.Impl.ArrayArithmeticLogicImpl countPositiveValueOfArray - Start countPositiveValueOfArray()
+08:58:41.768 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.768 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.768 [main] INFO  service.Impl.ArrayArithmeticLogicImpl countPositiveValueOfArray - Array = CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.769 [main] INFO  service.Impl.ArrayArithmeticLogicImpl countPositiveValueOfArray - Number positive elements of array = 4
+
+08:58:41.769 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMaxValueOfArray - Start ArrayLogic.findMaxValueOfArray()
+08:58:41.770 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.770 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.770 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMaxValueOfArray - Array = CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.770 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMaxValueOfArray - Max value of array = 8.7
+
+08:58:41.770 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.770 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.770 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMinValueOfArray - Start ArrayLogic.findMinValueOfArray()
+08:58:41.770 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMinValueOfArray - Array = CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.770 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findMinValueOfArray - Min value of array = -1.8
+
+08:58:41.770 [main] INFO  service.Impl.ArrayArithmeticLogicImpl sumElementsOfArray - Start ArrayLogic.sumElementsOfArray()
+08:58:41.770 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.771 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.771 [main] INFO  service.Impl.ArrayArithmeticLogicImpl sumElementsOfArray - Array = CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.771 [main] INFO  service.Impl.ArrayArithmeticLogicImpl sumElementsOfArray - Sum of array = 8.0
+
+08:58:41.771 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findAverageValueOfArray - Start findAverageValueOfArray()
+08:58:41.771 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.771 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.771 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findAverageValueOfArray - Array = CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.771 [main] INFO  service.Impl.ArrayArithmeticLogicImpl sumElementsOfArray - Start ArrayLogic.sumElementsOfArray()
+08:58:41.771 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.771 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.771 [main] INFO  service.Impl.ArrayArithmeticLogicImpl sumElementsOfArray - Array = CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.771 [main] INFO  service.Impl.ArrayArithmeticLogicImpl sumElementsOfArray - Sum of array = 8.0
+
+08:58:41.772 [main] INFO  service.Impl.ArrayArithmeticLogicImpl findAverageValueOfArray - Average value of array = 1.3333333333333333
+
+08:58:41.772 [main] INFO  service.Impl.ArrayArithmeticLogicWithStreamImpl exchangeNumberOfArrayToOtherNumber - Start ArrayLogic.exchangeNumberOfArrayToOtherNumber()
+08:58:41.772 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.772 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.772 [main] INFO  service.Impl.ArrayArithmeticLogicWithStreamImpl exchangeNumberOfArrayToOtherNumber - Array = CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.773 [main] INFO  service.Impl.ArrayArithmeticLogicWithStreamImpl exchangeNumberOfArrayToOtherNumber - New array = [-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.774 [main] INFO  service.Impl.ArrayArithmeticLogicWithStreamImpl countNegativeValueOfArray - Start countNegativeValueOfArray()
+08:58:41.774 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.774 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.774 [main] INFO  service.Impl.ArrayArithmeticLogicWithStreamImpl countNegativeValueOfArray - Array = CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.775 [main] INFO  service.Impl.ArrayArithmeticLogicWithStreamImpl countNegativeValueOfArray - Number negative elements of array = 2
+
+08:58:41.775 [main] INFO  service.Impl.ArrayArithmeticLogicWithStreamImpl countPositiveValueOfArray - Start countPositiveValueOfArray()
+08:58:41.776 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Start validating array: CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.776 [main] INFO  task.validator.ValidatorCustomerArray checkSizeOfArray - Validating is: true
+08:58:41.776 [main] INFO  service.Impl.ArrayArithmeticLogicWithStreamImpl countPositiveValueOfArray - Array = CustomerArray[-1.8, -1.0, 8.7, 1.3, 6.1, 8.0]
+08:58:41.776 [main] INFO  service.Impl.ArrayArithmeticLogicWithStreamImpl countPositiveValueOfArray - Number positive elements of array = 4
+
+08:58:41.776 [main] INFO  task.creator.CustomerArrayCreator createCustomerArray - Start creating CustomArray
+08:58:41.777 [main] INFO  task.creator.CustomerArrayCreator createCustomerArray - CustomerArray[-1.8, 9.6, 8.7, 1.3, 6.1, 8.0]

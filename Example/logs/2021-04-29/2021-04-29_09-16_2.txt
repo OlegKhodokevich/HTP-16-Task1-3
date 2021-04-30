@@ -1,0 +1,165 @@
+09:16:54.353 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Shell sorting have finished. Sorted array: CustomerArray[-8.0, -6.3, -5.0, -1.2, 4.8, 5.6, 5.7, 6.3]
+09:16:54.359 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.359 [main] INFO  service.Impl.ArrayServiceSortImpl2 -  Array is null or empty.
+09:16:54.360 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.361 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.0, 5.8, 9.6, 6.3, 8.7, -6.0]
+09:16:54.361 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.361 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[1.0, 2.5, -3.0, 5.8, 9.6, 6.3, 8.7, -6.0]
+09:16:54.390 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.390 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5, -3.0, 5.8]
+09:16:54.390 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.390 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[1.0, 2.5, -3.0, 5.8]
+09:16:54.391 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.391 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0, 2.5]
+09:16:54.391 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.391 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[1.0, 2.5]
+09:16:54.391 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.391 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.0]
+09:16:54.391 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.391 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[1.0]
+09:16:54.391 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.391 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[2.5]
+09:16:54.391 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.391 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[2.5]
+09:16:54.391 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.391 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-3.0, 5.8]
+09:16:54.391 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.391 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[-3.0, 5.8]
+09:16:54.391 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.392 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-3.0]
+09:16:54.392 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.392 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[-3.0]
+09:16:54.392 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.392 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[5.8]
+09:16:54.392 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.392 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[5.8]
+09:16:54.392 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.392 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[9.6, 6.3, 8.7, -6.0]
+09:16:54.392 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.392 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[9.6, 6.3, 8.7, -6.0]
+09:16:54.392 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.392 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[9.6, 6.3]
+09:16:54.392 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.392 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[9.6, 6.3]
+09:16:54.392 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.393 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[9.6]
+09:16:54.393 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.393 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[9.6]
+09:16:54.393 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.393 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[6.3]
+09:16:54.393 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.393 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[6.3]
+09:16:54.393 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.393 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[8.7, -6.0]
+09:16:54.393 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.393 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[8.7, -6.0]
+09:16:54.393 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.393 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[8.7]
+09:16:54.393 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.393 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[8.7]
+09:16:54.393 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.393 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-6.0]
+09:16:54.393 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.394 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[-6.0]
+09:16:54.394 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.394 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[9.0, 3.3, 5.6, 8.9, 5.6, -8.0, -4.5, 1.2]
+09:16:54.394 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.394 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[9.0, 3.3, 5.6, 8.9, 5.6, -8.0, -4.5, 1.2]
+09:16:54.394 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.394 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[9.0, 3.3, 5.6, 8.9]
+09:16:54.395 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.395 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[9.0, 3.3, 5.6, 8.9]
+09:16:54.395 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.395 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[9.0, 3.3]
+09:16:54.395 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.395 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[9.0, 3.3]
+09:16:54.395 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.395 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[9.0]
+09:16:54.395 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.395 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[9.0]
+09:16:54.395 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.395 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[3.3]
+09:16:54.395 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.395 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[3.3]
+09:16:54.395 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.395 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[5.6, 8.9]
+09:16:54.395 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.395 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[5.6, 8.9]
+09:16:54.395 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.396 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[5.6]
+09:16:54.396 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.396 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[5.6]
+09:16:54.396 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.396 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[8.9]
+09:16:54.396 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.396 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[8.9]
+09:16:54.396 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.396 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[5.6, -8.0, -4.5, 1.2]
+09:16:54.396 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.396 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[5.6, -8.0, -4.5, 1.2]
+09:16:54.396 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.396 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[5.6, -8.0]
+09:16:54.396 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.396 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[5.6, -8.0]
+09:16:54.396 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.396 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[5.6]
+09:16:54.396 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.396 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[5.6]
+09:16:54.396 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.397 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-8.0]
+09:16:54.397 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.397 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[-8.0]
+09:16:54.397 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.397 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-4.5, 1.2]
+09:16:54.397 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.397 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[-4.5, 1.2]
+09:16:54.397 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.397 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-4.5]
+09:16:54.397 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.397 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[-4.5]
+09:16:54.397 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.397 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[1.2]
+09:16:54.397 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.397 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[1.2]
+09:16:54.398 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.398 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[5.6, 4.8, -1.2, -6.3, -8.0, -5.0, 6.3, 5.7]
+09:16:54.398 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[5.6, 4.8, -1.2, -6.3, -8.0, -5.0, 6.3, 5.7]
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.399 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[5.6, 4.8, -1.2, -6.3]
+09:16:54.399 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[5.6, 4.8, -1.2, -6.3]
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.399 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[5.6, 4.8]
+09:16:54.399 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[5.6, 4.8]
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.399 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[5.6]
+09:16:54.399 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[5.6]
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.399 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[4.8]
+09:16:54.399 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[4.8]
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.399 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-1.2, -6.3]
+09:16:54.399 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[-1.2, -6.3]
+09:16:54.399 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.399 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-1.2]
+09:16:54.400 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.400 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[-1.2]
+09:16:54.400 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.400 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-6.3]
+09:16:54.400 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.400 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[-6.3]
+09:16:54.400 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.400 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-8.0, -5.0, 6.3, 5.7]
+09:16:54.400 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.400 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[-8.0, -5.0, 6.3, 5.7]
+09:16:54.400 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.400 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-8.0, -5.0]
+09:16:54.400 [main] INFO  task.validator.ValidatorCustomerArray - Validating is: true
+09:16:54.400 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Array :[-8.0, -5.0]
+09:16:54.400 [main] INFO  service.Impl.ArrayServiceSortImpl2 - Start sort by merge.
+09:16:54.400 [main] INFO  task.validator.ValidatorCustomerArray - Start validating array: CustomerArray[-8.0]
